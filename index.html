@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+  >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cookie&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FIGMA -->
+    <!--https://www.figma.com/file/fdz5ZgRrJ1OqlrHa98w2Su/Untitled-(Copy)?type=design&node-id=0-1&mode=design&t=jGPK1gjOxB6AqSYb-0 -->
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrapper">
+        <div class="header__container">
+          <div class="header__logo">
+            <img src="./images/icons/logo.png" alt="logo">
+          </div>
+          <nav class="header__-navigation">
+            <ul class="header__navigation-list">
+              <li class="header__navigation-item">
+                <a class="header__navigation-link" href="#">Home</a>
+              </li>
+              <li class="header__navigation-item">
+                <a class="header__navigation-link" href="#">Menu</a>
+              </li>
+              <li class="header__navigation-item">
+                <a class="header__navigation-link" href="#">About</a>
+              </li>
+              <li class="header__navigation-item">
+                <a class="header__navigation-link" href="#">
+                  Booking Information
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__cart">
+            <a href="#">
+              <img src="./images/icons/cart.png" alt="cart" />
+            </a>
+          </div>
+          <address class="header__contacts">
+            <div class="header__contacts-holder">
+              <div class="header__contacts-img">
+                <img src="./images/icons/phone.png" alt="tel" />
+              </div>
+              <div class="header__contacts-tel">
+                <a href="#">+380-98-000-00-00</a>
+              </div>
+            </div>
+            <div class="header__contacts-text">
+              <p>Contact us for booking</p>
+            </div>
+          </address>
+          <div class="header__btn">
+            <a href="#">Table booking</a>
+          </div>
+          <div id="burger" class="header__burger-menu">
+            <div class="header__burger-wrapper">
+              <div class="header__burger-btn"></div>
+              <div id="burger__slider" class="header__burger-menu-slide hide">
+                <ul class="header__navigation-list">
+                  <li class="header__navigation-item">
+                    <a class="header__navigation-link" href="#">Home</a>
+                  </li>
+                  <li class="header__navigation-item">
+                    <a class="header__navigation-link" href="#">Menu</a>
+                  </li>
+                  <li class="header__navigation-item">
+                    <a class="header__navigation-link" href="#">About</a>
+                  </li>
+                  <li class="header__navigation-item">
+                    <a class="header__navigation-link" href="#">
+                      Booking Information
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="hero">
+        <div class="hero__wrapper">
+          <div class="hero__container">
+            <h1>
+              Welcome to Our Restaurant
+              <br />
+              <span class="hero__title">Our Restaurant</span>
+            </h1>
+            <div class="hero__subtitle">Home of the Best Food</div>
+            <div class="hero__btn">
+              <a class="hero__link" href="#">VIEW MENU</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main__wrapper">
+        <div class="cards">
+          <div class="card">
+            <div class="card__img">
+              <img src="./images/icons/closed_dish.png" alt="closed_dish" />
+            </div>
+            <div class="card__title">
+              <p>
+                Magical
+                <span class="highlight">Atmosphere</span>
+              </p>
+            </div>
+            <div class="card__text">
+              <p>
+                Our establishment is filled with a magical atmosphere, infused
+                with delightful aromas
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__img">
+              <img src="./images/icons/closed_dish.png" alt="closed_dish" />
+            </div>
+
+            <div class="card__title">
+              <p>
+                Best Quality
+                <span class="highlight">Food</span>
+              </p>
+            </div>
+            <div class="card__text">
+              <p>The quality of our food is excellent!</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__img">
+              <img src="./images/icons/closed_dish.png" alt="closed_dish" />
+            </div>
+
+            <div class="card__title">
+              <p>
+                Affordable
+                <span class="highlight">Food</span>
+              </p>
+            </div>
+            <div class="card__text">
+              <p>
+                The cost of our food depends only on its quantity. The quality
+                is always top-notch!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="history">
+          <div class="history__wrapper">
+            <div class="history__title">
+              <p>
+                Our
+                <span class="history__highlight">History</span>
+              </p>
+            </div>
+            <div class="history__text">
+              Like any other unique place, we have our own special history. The
+              idea for the restaurant came unexpectedly to the founders. During
+              a walk in the forest, the creator of our restaurant got stranded
+              hundreds of kilometers away from the nearest town. Far from
+              civilization and communication, they had to quickly arrange a
+              simple life for themselves, procure and cook their own food
+            </div>
+            <div class="history__cards">
+              <div class="history__card">
+                <div class="history__card-number">93</div>
+                <div class="history__card-text">Drinks</div>
+              </div>
+              <div class="history__card-card">
+                <div class="history__card-number">206</div>
+                <div class="history__card-text">Food</div>
+              </div>
+              <div class="history__card-card">
+                <div class="history__card-number">71</div>
+                <div class="history__card-text">Snacks</div>
+              </div>
+            </div>
+          </div>
+          <div class="history__gallery">
+            <div class="history__img-1">
+              <img src="./images/history/dish_1.png" alt="dish" />
+            </div>
+            <div class="history__img-2">
+              <img src="./images/history/dish_2.png" alt="dish" />
+            </div>
+            <div class="history__img-3">
+              <img src="./images/history/dish_3.png" alt="dish" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="promotion">
+        <div class="promotion__wrapper">
+          <div class="promotion__text">
+            <div class="promotion__title">
+              Enjoy a celebration at one of the best restaurants
+            </div>
+            <div class="promotion__subtitle">
+              Only this month, business lunch starts from 25$
+            </div>
+          </div>
+          <div class="promotion__button">
+            <button>Table reservation</button>
+          </div>
+        </div>
+      </div>
+      <div class="main__wrapper">
+        <div class="dishes">
+          <div class="dishes__title">
+            Our
+            <span class="dishes__title-highlight">Dishes</span>
+          </div>
+          <div class="dishes__info">
+            <div class="dishes__img">
+              <img src="./images/dishes/hamburger.png" alt="hamburger" />
+            </div>
+            <div class="dishes__menu">
+              <div class="dishes__menu-item">
+                <div class="dishes__menu-img">
+                  <img
+                    src="./images/dishes/mini_hamburger.png"
+                    alt="mini_hamburger"
+                  />
+                </div>
+                <div class="dishes__menu-info">
+                  <div class="dishes__menu-text">Mini hamburger</div>
+                  <div class="line"></div>
+                  <div class="dishes__menu-price">22 $</div>
+                </div>
+              </div>
+              <div class="dishes__menu-item">
+                <div class="dishes__menu-img">
+                  <img
+                    src="./images/dishes/mini_hamburger.png"
+                    alt="mini_hamburger"
+                  />
+                </div>
+                <div class="dishes__menu-info">
+                  <div class="dishes__menu-text">Mini hamburger</div>
+                  <div class="line"></div>
+                  <div class="dishes__menu-price">22 $</div>
+                </div>
+              </div>
+              <div class="dishes__menu-item">
+                <div class="dishes__menu-img">
+                  <img
+                    src="./images/dishes/mini_hamburger.png"
+                    alt="mini_hamburger"
+                  />
+                </div>
+                <div class="dishes__menu-info">
+                  <div class="dishes__menu-text">Mini hamburger</div>
+                  <div class="line"></div>
+                  <div class="dishes__menu-price">22 $</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu">
+        <div class="menu__wrapper">
+          <div class="menu__title">Our menu</div>
+          <div class="menu__blocks">
+            <div class="menu__block">
+              <div class="recommended">RECOMENDED</div>
+              <div class="menu__block-img-and-price">
+                <div class="menu__block-img">
+                  <img
+                    src="./images/menu/maxi_hamburger.png"
+                    alt="maxi_hamburger"
+                  />
+                </div>
+                <div class="menu__block-price">420</div>
+              </div>
+
+              <div class="menu__block-title">Maxi hamburger</div>
+              <div class="menu__block-text">Maximally thick layer of meat</div>
+              <div class="menu__block-button">
+                <button>Order</button>
+              </div>
+            </div>
+            <div class="menu__block">
+              <div class="menu__block-img-and-price">
+                <div class="menu__block-img">
+                  <img
+                    src="./images/menu/maxi_hamburger.png"
+                    alt="maxi_hamburger"
+                  />
+                </div>
+                <div class="menu__block-price">420</div>
+              </div>
+              <div class="menu__block-title">Maxi hamburger</div>
+              <div class="menu__block-text">Maximally thick layer of meat</div>
+              <div class="menu__block-button">
+                <button>Order</button>
+              </div>
+            </div>
+            <div class="menu__block">
+              <div class="menu__block-img-and-price">
+                <div class="menu__block-img">
+                  <img
+                    src="./images/menu/maxi_hamburger.png"
+                    alt="maxi_hamburger"
+                  />
+                </div>
+                <div class="menu__block-price">420</div>
+              </div>
+
+              <div class="menu__block-title">
+                <p>Maxi hamburger</p>
+              </div>
+              <div class="menu__block-text">
+                <p>Maximally thick layer of meat</p>
+              </div>
+              <div class="menu__block-button">
+                <button>Order</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="comment">
+        <div class="comment__wrapper">
+          <div class="comment__text">
+            I will long remember my birthday spent at this restaurant! It's a
+            piece of my native Armenia!!! Special thanks for the complimentary
+            fruit plate. We will recommend this restaurant to our friends and
+            relatives abroad who travel to St. Petersburg!!!
+          </div>
+          <div class="comment__img">
+            <img src="./images/comment.png" alt="comment" />
+          </div>
+          <div class="comment__title">Visitor</div>
+          <div class="comment__subtitle">Nicholas</div>
+          <div class="comment__ellipsis">
+            <div class="comment__ellips-first"></div>
+            <div class="comment__ellips-second"></div>
+            <div class="comment__ellips-accent"></div>
+          </div>
+        </div>
+      </div>
+      <div class="main__wrapper">
+        <div class="dishes__gallery">
+          <div class="dishes__gallery-title">
+            Food
+            <span class="highlight">Gallery</span>
+          </div>
+          <div class="dishes__gallery-content">
+            <div class="dishes__gallery-content-left">
+              <img
+                class="dishes__gallery-img"
+                src="./images/dishes_gallery/dishes-gallery-1.png"
+                alt="dishes_gallery"
+              />
+              <img
+                class="dishes__gallery-img"
+                src="./images/dishes_gallery/dishes-gallery-2.png"
+                alt="dishes_gallery"
+              />
+              <img
+                class="dishes__gallery-img"
+                src="./images/dishes_gallery/dishes-gallery-3.png"
+                alt="dishes_gallery"
+              />
+            </div>
+            <div class="dishes__gallery-content-right">
+              <img
+                class="dishes__gallery-img"
+                src="./images/dishes_gallery/dishes-gallery-2.png"
+                alt="dishes_gallery"
+              />
+              <img
+                class="dishes__gallery-img"
+                src="./images/dishes_gallery/dishes-gallery-3.png"
+                alt="dishes_gallery"
+              />
+              <img
+                class="dishes__gallery-img"
+                src="./images/dishes_gallery/dishes-gallery-1.png"
+                alt="dishes_gallery"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="cooks">
+          <div class="cooks__title">
+            Our
+            <span class="highlight">Chefs</span>
+          </div>
+          <div class="cooks__photos">
+            <img src="./images/cooks/cook_1.png" alt="cook" />
+            <img src="./images/cooks/cook_2.png" alt="cook" />
+            <img src="./images/cooks/cook_3.png" alt="cook" />
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <img src="./images/footer.png" alt="restourant" />
+      </div>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
